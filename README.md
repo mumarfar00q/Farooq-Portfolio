@@ -2,7 +2,7 @@
 
 A portfolio web site completely made in html css and js from ground up.
 
-#### Watch it live here - [Farooq.netlify.app](https://muhammadumarfarooq.netlify.app/)
+#### Watch it live here - [Visit Website](https://mumarfarooq-dev.vercel.app/)
 
 <br>
 
