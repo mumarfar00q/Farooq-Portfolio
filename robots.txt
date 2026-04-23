@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mumarfarooq-dev.vercel.app/sitemap.xml
