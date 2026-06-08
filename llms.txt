@@ -1,0 +1,76 @@
+# LLMs Configuration File
+# This file provides information for large language models and AI crawlers
+
+Site: Muhammad Umar Farooq Portfolio
+URL: https://mumarfarooq-dev.vercel.app
+Author: Muhammad Umar Farooq
+Email: mumarfarooq.at@gmail.com
+
+## Profile Information
+Name: Muhammad Umar Farooq
+Title: React Native & Software Developer
+Location: Pakistan
+Phone: +92 3071 595559
+
+## Professional Summary
+Muhammad Umar Farooq is a professional Software Developer specializing in React Native and cross-platform mobile application development. With 3+ years of experience, he has successfully completed 8+ projects ranging from mobile apps to web applications. His expertise spans across modern frontend technologies including React, JavaScript, TypeScript, and mobile development with Kotlin.
+
+## Core Skills
+- React Native Development
+- Kotlin Android Development
+- React.js & Frontend Development
+- JavaScript & TypeScript
+- UI/UX Design
+- REST APIs & Firebase
+- State Management & Redux
+- Responsive Web Design
+
+## Services
+- Cross-Platform App Development
+- Front-End Web Development
+- UI/UX Design & Implementation
+- API Integration & Real-time Features
+- Performance Optimization
+- Code Architecture & Best Practices
+
+## Social Links
+- GitHub: https://github.com/mumarfar00q
+- LinkedIn: https://www.linkedin.com/in/mumarfar00q/
+- Instagram: https://www.instagram.com/mumarfar0oq/
+
+## Portfolio Projects
+1. Portfolio Website - React/Next.js
+2. Movie App - React Native/Kotlin
+3. E-Commerce Website - React.js
+4. Multiple client projects with various technologies
+
+## Certifications & Achievements
+- React Native Development Certified
+- Kotlin Android Development Certified
+- Web Development Expert
+- UI/UX Design Professional
+- API Integration & REST Specialist
+- State Management & Redux Expert
+
+## Technologies Used
+Frontend: React, React Native, JavaScript, TypeScript, HTML5, CSS3
+Mobile: Kotlin, Android Studio
+Backend/Services: Firebase, REST APIs, Postman
+Tools: Git, GitHub, Android Studio, VS Code
+Styling: Bootstrap, CSS-in-JS, Responsive Design
+
+## Contact Information
+Email: mumarfarooq.at@gmail.com
+WhatsApp: +92 3071 595559
+GitHub: https://github.com/mumarfar00q
+LinkedIn: https://www.linkedin.com/in/mumarfar00q/
+
+## Additional Resources
+- CV/Resume: Available at /assets/CV/M_Umar_Farooq.pdf
+- Portfolio Demo: https://mumarfarooq-dev.vercel.app/
+- GitHub Profile: https://github.com/mumarfar00q
+
+---
+Last Updated: 2024
+Language: English
+Content Type: Professional Portfolio & Services

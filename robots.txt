@@ -1,4 +1,57 @@
+# Robots.txt for Muhammad Umar Farooq Portfolio
+# Allow search engines to crawl all content
+
+# Default rules for all robots
 User-agent: *
 Allow: /
+Allow: /assets/
+Allow: /index.html
+Allow: /*.json
+Allow: /*.txt
+Allow: /*.xml
 
+# Disallow private or system files
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /node_modules/
+Disallow: /.*
+
+# Allow important URLs for indexing
+Allow: /
+Allow: /manifest.json
+Allow: /llms.txt
+Allow: /page_sitemap.xml
+
+# Crawl delay (optional - be respectful to server)
+Crawl-delay: 1
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Allow LLM/AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Sitemap location
+Sitemap: https://mumarfarooq-dev.vercel.app/page_sitemap.xml
 Sitemap: https://mumarfarooq-dev.vercel.app/sitemap.xml
+
+# Additional metadata for crawlers
+# Portfolio type: Professional Developer Portfolio
+# Main focus: React Native, Web Development, Mobile Apps
+# Update frequency: Weekly

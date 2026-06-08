@@ -1,20 +1,77 @@
 {
-    "name": "Muhammad Umar Farooq | React Native Developer",
+    "name": "Muhammad Umar Farooq | React Native & Software Developer",
     "short_name": "M Umar Farooq",
+    "description": "Professional portfolio of Muhammad Umar Farooq - React Native Developer, Web Developer, and UI/UX Designer building scalable mobile and web applications.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "theme_color": "#a789d4",
+    "background_color": "#0f1419",
+    "categories": ["business", "productivity"],
     "icons": [
+        {
+            "src": "favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any"
+        },
         {
             "src": "android-chrome-192x192.png",
             "sizes": "192x192",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         },
         {
             "src": "android-chrome-512x512.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any"
         }
     ],
-    "theme_color": "#a789d4",
-    "background_color": "#ffffff",
-    "display": "standalone",
-    "start_url": "/index.html"
+    "screenshots": [
+        {
+            "src": "../img/about.webp",
+            "sizes": "540x720",
+            "type": "image/webp"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "View My Work",
+            "short_name": "Portfolio",
+            "description": "View my latest projects and achievements",
+            "url": "/?utm_source=pwa#work",
+            "icons": [
+                {
+                    "src": "android-chrome-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "Get in Touch",
+            "short_name": "Contact",
+            "description": "Contact me via email or WhatsApp",
+            "url": "/?utm_source=pwa#contact",
+            "icons": [
+                {
+                    "src": "android-chrome-192x192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ]
 }

@@ -177,6 +177,7 @@ body.light-theme {
 .light-theme .services__card,
 .light-theme .work__card,
 .light-theme .testimonial__card,
+.light-theme .certifications__card,
 .light-theme .contact__card,
 .light-theme .contact__form-div {
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, 0.1);
@@ -747,6 +748,99 @@ body.light-theme {
   background-color: var(--first-color);
 }
 
+/*=============== CERTIFICATIONS ===============*/
+.certifications__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+
+.certifications__card {
+  background-color: var(--container-color);
+  padding: 2rem 1.5rem;
+  border-radius: 1.5rem;
+  border-left: 4px solid var(--first-color);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.certifications__card:hover {
+  background-color: var(--first-color);
+  color: var(--body-color);
+  transform: translateY(-0.5rem);
+}
+
+.certifications__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.certifications__icon {
+  font-size: 2rem;
+  color: var(--first-color);
+  flex-shrink: 0;
+}
+
+.certifications__card:hover .certifications__icon {
+  color: var(--body-color);
+}
+
+.certifications__title {
+  font-size: var(--h3-font-size);
+  color: var(--title-color);
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.certifications__card:hover .certifications__title {
+  color: var(--body-color);
+}
+
+.certifications__description {
+  font-size: var(--small-font-size);
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.certifications__card:hover .certifications__description {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.certifications__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  padding-top: 1rem;
+  border-top: 1px solid var(--text-color-light);
+}
+
+.certifications__card:hover .certifications__footer {
+  border-top-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.certifications__date {
+  font-weight: var(--font-medium);
+}
+
+.certifications__issuer {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: var(--tiny-font-size);
+}
+
+.certifications__card:hover .certifications__issuer {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 /*=============== CONTACT ===============*/
 .contact__container {
   row-gap: 3rem;
@@ -1095,6 +1189,10 @@ body.light-theme {
     margin: auto;
   }
 
+  .certifications__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contact__container {
     display: grid;
     grid-template-columns: 220px 340px;
@@ -1256,6 +1354,15 @@ body.light-theme {
 
   .testimonial__card {
     padding: 1.5rem 2rem;
+  }
+
+  .certifications__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+
+  .certifications__card {
+    padding: 2.5rem 2rem;
   }
 
   .contact__info {
