@@ -32,30 +32,6 @@ modalClose.forEach((mc) => {
   });
 });
 
-/*=============== CERTIFICATIONS MODAL ===============*/
-// Get certification modals
-const certModalViews = document.querySelectorAll(".certifications__modal"),
-  certModalBtns = document.querySelectorAll(".certifications__button"),
-  certModalClose = document.querySelectorAll(".certifications__modal-close");
-
-// Open certification modal
-let certModal = function (certModalClick) {
-  certModalViews[certModalClick].classList.add("active-modal");
-};
-
-certModalBtns.forEach((cb, i) => {
-  cb.addEventListener("click", () => {
-    certModal(i);
-  });
-});
-
-certModalClose.forEach((cc) => {
-  cc.addEventListener("click", () => {
-    certModalViews.forEach((cv) => {
-      cv.classList.remove("active-modal");
-    });
-  });
-});
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
 
