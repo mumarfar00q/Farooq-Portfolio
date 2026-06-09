@@ -773,7 +773,7 @@ body.light-theme {
   border-left: 4px solid var(--first-color);
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
+  overflow: visible;
   cursor: pointer;
 }
 
