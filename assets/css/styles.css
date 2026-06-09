@@ -590,6 +590,16 @@ body.light-theme {
   padding: 4.5rem 1.5rem 2.5rem;
   border-radius: 1.5rem;
   position: relative;
+  opacity: 0;
+  transform: translateY(-25px) scale(0.98);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  will-change: opacity, transform;
+}
+
+.services__modal.active-modal .services__modal-content {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition-delay: 0.05s;
 }
 
 .services__modal-title,
@@ -866,18 +876,16 @@ body.light-theme {
   max-width: 500px;
   max-height: 90vh;
   overflow-y: auto;
-  animation: slideDown 0.3s ease-out;
+  opacity: 0;
+  transform: translateY(-35px) scale(0.96);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  will-change: opacity, transform;
 }
 
-@keyframes slideDown {
-  from {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+.certifications__modal.active-modal .certifications__modal-content {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  transition-delay: 0.07s;
 }
 
 .certifications__modal-close {
